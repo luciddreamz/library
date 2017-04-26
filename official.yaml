@@ -108,6 +108,25 @@ data:
           online:
             - starter
             - professional
+  jenkins:
+    templates:
+      - location: https://raw.githubusercontent.com/openshift/origin/master/examples/jenkins/jenkins-ephemeral-template.json
+        docs: https://github.com/openshift/origin/blob/master/examples/jenkins/README.md
+      - location: https://raw.githubusercontent.com/openshift/origin/master/examples/jenkins/jenkins-persistent-template.json
+        docs: https://github.com/openshift/origin/blob/master/examples/jenkins/README.md
+        openshift:
+          online:
+            - starter
+            - professional
+    imagestreams:
+      - location: https://raw.githubusercontent.com/openshift/origin/master/examples/image-streams/image-streams-rhel7.json
+        docs: https://github.com/openshift/origin/blob/master/examples/jenkins/README.md
+        regex: jenkins
+        suffix: rhel7
+        openshift:
+          online:
+            - starter
+            - professional
   mariadb:
     templates:
       - location: https://raw.githubusercontent.com/openshift/origin/master/examples/db-templates/mariadb-ephemeral-template.json
