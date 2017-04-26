@@ -406,10 +406,6 @@ data:
     templates:
       - location: https://raw.githubusercontent.com/jboss-openshift/application-templates/{xpaas_version}/webserver/jws30-tomcat7-basic-s2i.json
         docs: https://github.com/jboss-openshift/application-templates/blob/{xpaas_version}/docs/webserver/jws30-tomcat7-basic-s2i.adoc
-        openshift:
-          online:
-            - starter
-            - professional
       - location: https://raw.githubusercontent.com/jboss-openshift/application-templates/{xpaas_version}/webserver/jws30-tomcat7-https-s2i.json
         docs: https://github.com/jboss-openshift/application-templates/blob/{xpaas_version}/docs/webserver/jws30-tomcat7-https-s2i.adoc
       - location: https://raw.githubusercontent.com/jboss-openshift/application-templates/{xpaas_version}/webserver/jws30-tomcat7-mongodb-persistent-s2i.json
@@ -426,6 +422,10 @@ data:
         docs: https://github.com/jboss-openshift/application-templates/blob/{xpaas_version}/docs/webserver/jws30-tomcat7-postgresql-s2i.adoc
       - location: https://raw.githubusercontent.com/jboss-openshift/application-templates/{xpaas_version}/webserver/jws30-tomcat8-basic-s2i.json
         docs: https://github.com/jboss-openshift/application-templates/blob/{xpaas_version}/docs/webserver/jws30-tomcat8-basic-s2i.adoc
+        openshift:
+          online:
+            - starter
+            - professional
       - location: https://raw.githubusercontent.com/jboss-openshift/application-templates/{xpaas_version}/webserver/jws30-tomcat8-https-s2i.json
         docs: https://github.com/jboss-openshift/application-templates/blob/{xpaas_version}/docs/webserver/jws30-tomcat8-https-s2i.adoc
       - location: https://raw.githubusercontent.com/jboss-openshift/application-templates/{xpaas_version}/webserver/jws30-tomcat8-mongodb-persistent-s2i.json
